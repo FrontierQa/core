@@ -1,0 +1,40 @@
+# Rust
+target/
+**/*.rs.bk
+*.pdb
+*.profraw
+*.profdata
+
+# Node (napi-rs bindings)
+node_modules/
+dist/
+coverage/
+*.node
+
+# Python (PyO3 / maturin)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.maturin/
+
+# Generated reports and traces
+/frontierqa-report.json
+*.trace
+*.zip
+test-results/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp

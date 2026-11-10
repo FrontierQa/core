@@ -1,0 +1,23 @@
+* text=auto eol=lf
+
+*.rs text
+*.toml text
+*.md text
+*.json text
+*.yml text
+*.yaml text
+*.sh text eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.zip binary
+*.trace binary
+*.webm binary
+*.mp4 binary
+*.node binary
